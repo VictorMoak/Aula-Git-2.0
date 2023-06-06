@@ -8,6 +8,35 @@ void menu () {
     printf("Olá mundo, este é o menu");
 }
 
-void moizeslindu(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+oid moizeslindu(){
 	printf("oi professor lindu");
 }
