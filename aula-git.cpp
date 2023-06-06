@@ -2,14 +2,17 @@
 #include <stdlib.h>
 
 bool menu();
+#include <locale.h>
 
 int main () {
+    setlocale(LC_ALL, "Portuguese");
 
     do
     {
         system("cls");
     }while(menu() == true);
-    
+
+    menu();
 }
 
 bool menu() {
