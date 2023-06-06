@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/aluno/Desktop/C C++/AluguelDeFilmeC-main/Aula-Git-2.0",
-      "program": "c:/Users/aluno/Desktop/C C++/AluguelDeFilmeC-main/Aula-Git-2.0/build/Debug/outDebug",
+      "cwd": "c:/Users/Virgílio/Desktop/VS_code/Git",
+      "program": "c:/Users/Virgílio/Desktop/VS_code/Git/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

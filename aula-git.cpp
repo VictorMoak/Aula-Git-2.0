@@ -1,19 +1,44 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <locale.h>
+
+bool menu();
 
 int main () {
     setlocale(LC_ALL, "Portuguese");
 
+    do
+    {
+        system("cls");
+    }while(menu() == true);
+
     menu();
 }
 
-void menu () {
-    int op;
+bool menu() {
+    int opicao;
+
+    printf("==MENU AULA==\n\n1 - teste\n2 - teste\n3 - sair\n\n");
+
+    scanf("%d", &opicao);
+
+    switch (opicao)
+    {
+    case 1:
+        //teste
+        return true;
+        break;
+    case 2:
+        //teste
+        return true;
+        break;
+    case 3:
+        return false;
     
-    printf("Menu");
-
-    printf("1 - Inicia");
-
-    printf("Escolha uma das opção");
-    scanf("%d", &op);
+    default:
+        printf("erro");
+        system("pause");
+        return true;
+        break;
+    }
 }
